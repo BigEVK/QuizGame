@@ -1,0 +1,44 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+    font-family: Georgia, serif;    
+}
+body {    
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000ff;
+}
+.startbox {
+    width: 600px;
+    max-width: 80%;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+.btn-grid {
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;    
+}
+.btn {
+    background-color: purple;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.btn:hover {
+    background-color: #adff2f;
+}
+.start-btn {
+    font-size: 1.5;
+    padding: 10px;
+}
+.hidden {
+    display: none;
+}
