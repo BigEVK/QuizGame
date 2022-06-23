@@ -28,9 +28,11 @@ body {
     margin: 20px 0;    
 }
 .btn {
+    margin: 5px;
     background-color: purple;
     color: #ffffff;
     border-radius: 10px;
+    list-style: none;
 }
 .btn:hover {
     background-color: #adff2f;
