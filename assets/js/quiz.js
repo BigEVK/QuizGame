@@ -76,45 +76,45 @@ var questions = [
         },
         correctAnswer: "1"
     },
-    // {
-    // question: "What is the windows command to format page?",
-    // answers: {
-    //     1: "Ctrl + F",
-    //     2: "Shft + alt + D",
-    //     3: "Shift + alt + F",
-    //     4: "Ctrl + alt + F",
-    // },
-    // correctAnswer: "2"
-    // },
-    // {
-    //     question: "How do you automatically create the basic structure of an HTML 5 file?",
-    //     answers: {
-    //         1: "Create HTML",
-    //         2: "Load HTML5",
-    //         3: "html5:",
-    //         4: "html:5",
-    //     },
-    //     correctAnswer: "3"
-    // },
-    // {
-    //     question: "What returns the value fo the array at a given index?",
-    //     answers: {
-    //         1: "arrayValue[0]",
-    //         2: "statusValue[0]",
-    //         3: "statusChoices[0]",
-    //         4: "arrayChoices[0]",
-    //     correctAnswer: "2"    
-    //     },
-    // },
-    // {
-    //     question: "What is an object that can be used to loop through collections?",
-    //     answers: {
-    //         1: "iterator",
-    //         2: "looper",
-    //         3: "loop",
-    //         4: "runner",
-    //     correctAnswer: "0"
-    //     },
-    // },
+    {
+    question: "What is the windows command to format page?",
+    answers: {
+        1: "Ctrl + F",
+        2: "Shft + alt + D",
+        3: "Shift + alt + F",
+        4: "Ctrl + alt + F",
+    },
+    correctAnswer: "2"
+    },
+    {
+        question: "How do you automatically create the basic structure of an HTML 5 file?",
+        answers: {
+            1: "Create HTML",
+            2: "Load HTML5",
+            3: "html5:",
+            4: "html:5",
+        },
+        correctAnswer: "3"
+    },
+    {
+        question: "What returns the value fo the array at a given index?",
+        answers: {
+            1: "arrayValue[0]",
+            2: "statusValue[0]",
+            3: "statusChoices[0]",
+            4: "arrayChoices[0]",
+        correctAnswer: "2"    
+        },
+    },
+    {
+        question: "What is an object that can be used to loop through collections?",
+        answers: {
+            1: "iterator",
+            2: "looper",
+            3: "loop",
+            4: "runner",
+        correctAnswer: "0"
+        },
+    },
 ]
 
