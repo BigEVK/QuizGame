@@ -12,11 +12,12 @@ var answerButtonEl = document.getElementById("answer-btns");
 startButton.addEventListener('click', startGame)
 
 function startGame() {
-    console.log("Started");
+    // console.log("Started");
     startButton.classList.add("hidden");
     questionBoxEl.classList.remove("hidden");
     
     showQuestion(questions);
+    console.log(questions); 
 }
 
 
@@ -69,10 +70,10 @@ var questions = [
     {
         question: "What is i++?",
         answers: {
-            text: "Decrements the counter by one",
+            text: "Decrement the counter by one",
             text: "Increment the counter by one",
-            text: "Mulitple the counter by one",
-            text: "Divid the counter by one",
+            text: "Mulitply the counter by one",
+            text: "Divide the counter by one",
         },
         correctAnswer: "1"
     },
@@ -97,7 +98,7 @@ var questions = [
         correctAnswer: "3"
     },
     {
-        question: "What returns the value fo the array at a given index?",
+        question: "What returns the value of the array at a given index?",
         answers: {
             1: "arrayValue[0]",
             2: "statusValue[0]",
