@@ -16,8 +16,10 @@ function startGame() {
     startButton.classList.add("hidden");
     questionBoxEl.classList.remove("hidden");
     
+    let quiz = questions[Math.floor(Math.random() * questions.length)]
+    console.log(quiz);
     showQuestion(questions);
-    console.log(questions); 
+    // console.log(questions); 
 }
 
 
@@ -66,7 +68,7 @@ function showQuestion(questions) {
     //     button.class.add("btn");
     // })
     
-var questions = [
+let questions = [
     {
         question: "What is i++?",
         answers: {
@@ -118,4 +120,6 @@ var questions = [
         },
     },
 ]
+
+
 
